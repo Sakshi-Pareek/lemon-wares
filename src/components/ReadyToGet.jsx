@@ -72,201 +72,201 @@ const ReadyToGet = () => {
           className="flex flex-wrap items-center lg:justify-between justify-center gap-7"
           data-aos="fade-up"
         >
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] cursor-pointer max-md:text-center hover:shadow-lg transition-all ease-linear duration-500  rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 group hover:bg-[#B00000]">
-            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] cursor-pointer max-md:text-center transition-all ease-linear duration-300 hover:scale-[0.99] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 hover:bg-[#F7FAFE] hover:border-black">
+            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Starter
             </p>
-            <p className="text-black text-[12px] leading-[150%] ff_poppins font-normal pb-7 group-hover:text-white transition-all ease-linear duration-500">
+            <p className="text-black text-[12px] leading-[150%] ff_poppins font-normal pb-7">
               with all your customers via all conversation channels in one
               central dashboard.
             </p>
             {tabs ? (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $2.80
               </p>
             ) : (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $4.80
               </p>
             )}
             {show ? (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
-            <button className="rounded-[12px] border-[2px] border-solid border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] group-hover:border-white group-hover:text-white transition-all ease-linear duration-500">
+            <button className="rounded-[12px] border-[2px] border-solid border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] hover:text-white hover:bg-black transition-all ease-linear duration-500">
               Choose this Plan
             </button>
             <div className="max-md:flex flex-col justify-center items-center">
               <ul className="flex flex-col gap-[15px]">
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   2GB SSD
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   10GB Bandwidth
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   15 Email Accounts
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   Unlimited Database
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />4 Subdomains
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />1 Parked Domain
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />2 Websites
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Free SSL
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Softaculous
                 </li>
               </ul>
             </div>
           </div>
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center group hover:bg-[#B00000] transition-all ease-linear duration-500 hover:shadow-lg">
-            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
+            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Standard
             </p>
-            <p className="text-black ff_poppins text-[12px] leading-[150%] font-normal pb-7 group-hover:text-white transition-all ease-linear duration-500">
+            <p className="text-black ff_poppins text-[12px] leading-[150%] font-normal pb-7">
               with all your customers via all conversation channels in one
               central dashboard.
             </p>
             {tabs ? (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $4.20
               </p>
             ) : (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $8.20
               </p>
             )}
             {show ? (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
-            <button className="rounded-xl border-2 border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] group-hover:border-white group-hover:text-white transition-all ease-linear duration-500">
+            <button className="rounded-xl border-2 border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] hover:text-white hover:bg-black transition-all ease-linear duration-500">
               Choose this Plan
             </button>
             <div className="max-md:flex flex-col justify-center items-center">
               <ul className="flex flex-col gap-[15px]">
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   2GB SSD
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   10GB Bandwidth
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   15 Email Accounts
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   Unlimited Database
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />4 Subdomains
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />1 Parked Domain
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />2 Websites
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Free SSL
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Softaculous
                 </li>
               </ul>
             </div>
           </div>
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center group hover:bg-[#B00000] transition-all ease-linear duration-500 hover:shadow-lg">
-            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
+            <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Suprem
             </p>
-            <p className="text-black ff_poppins text-[12px] leading-[150%] font-normal pb-7 group-hover:text-white transition-all ease-linear duration-500">
+            <p className="text-black ff_poppins text-[12px] leading-[150%] font-normal pb-7">
               with all your customers via all conversation channels in one
               central dashboard.
             </p>
             {tabs ? (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $7.00
               </p>
             ) : (
-              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black text-[42px] font-semibold leading-[76.19%] ff_poppins pb-[11px]">
                 $14.00
               </p>
             )}
             {show ? (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px] group-hover:text-white transition-all ease-linear duration-500">
+              <p className="text-black ff_poppins text-[14px] leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
-            <button className="rounded-[12px] border-2 border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] group-hover:border-white group-hover:text-white transition-all ease-linear duration-500">
+            <button className="rounded-[12px] border-2 border-black text-black ff_poppins font-semibold text-[14px] leading-[228.571%] py-[9px] md:w-full px-10 text-nowrap mb-[35px] hover:text-white hover:bg-black transition-all ease-linear duration-500">
               Choose this Plan
             </button>
             <div className="max-md:flex flex-col justify-center items-center">
               <ul className="flex flex-col gap-[15px]">
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   2GB SSD
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   10GB Bandwidth
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   15 Email Accounts
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-bold flex gap-6">
                   <TickMark />
                   Unlimited Database
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />4 Subdomains
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />1 Parked Domain
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />2 Websites
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Free SSL
                 </li>
-                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6 group-hover:text-white transition-all ease-linear duration-500">
+                <li className="text-[#808080] ff_inter text-[16px] leading-[150%] font-semibold flex gap-6">
                   <TickMark />
                   Softaculous
                 </li>

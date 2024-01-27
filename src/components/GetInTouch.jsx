@@ -13,7 +13,7 @@ const GetInTouch = () => {
           <img
             src={HalfLargeTriangle}
             alt="HalfLargeTriangle"
-            className="absolute max-w-[40px] sm:max-w-[70px] w-full right-[7%] xl:right-[2%] lg:right-[6px] sm:right-0 bottom-[8%] sm:block hidden"
+            className="absolute max-w-[40px] md:max-w-[70px] w-full right-[7%] xl:right-[1%] lg:right-[6px] md:right-[12px] sm:right-4 bottom-[8%] sm:block hidden"
           />
           <img
             src={HalfRightTriangle}
@@ -23,10 +23,10 @@ const GetInTouch = () => {
           <img
             src={HalfTriangle}
             alt="HalfTriangle"
-            className="absolute max-w-[40px] w-full bottom-[20%] left-[6%] xl:left-[-3px] lg:left-[4px] sm:left-[0] sm:block hidden"
+            className="absolute max-w-[40px] w-full bottom-[20%] left-[6%] xl:left-[13px] lg:left-[4px] md:left-[15px] sm:left-4 sm:block hidden"
           />
 
-          <div className="rounded-[16px] bg-[#F7FAFE] py-[65px] lg:pt-[80px] lg:pb-[88px] max-w-[1232px] px-[20px] lg:px-[0]">
+          <div className="rounded-[16px] bg-[#F7FAFE] py-[65px] lg:pt-[80px] lg:pb-[88px] max-w-[1232px] px-[20px] lg:px-[0] mx-auto">
             <div className="flex justify-center items-center flex-col">
               <p className="ff_poppins text-[22px] sm:text-[35px] md:text-[44px] lg:text-[64px] font-semibold leading-[137%] text-[#2E2E2E] max-w-[1024px] text-center pb-[24px] sm:pb-[40px]">
                 We're here to make your website awesome.

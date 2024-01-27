@@ -10,7 +10,7 @@ const NavData = (props) => {
       <div className="flex flex-wrap flex-row justify-between mx-auto lg:gap-0 md:gap-10 sm:gap-7 gap-5">
         <div className="lg:w-1/2 w-full">
           <h1 className="lg:max-w-[608px] text-[#2E2E2E] xl:text-[64px] md:text-[40px] sm:text-[30px] text-[28px] ff_poppins font-bold leading-[121.099%] lg:mb-[34px] mb-5 mt-[26px]">
-            Premium Web <span className="text-[#b00000]">{props.heading} </span>
+            Premium Web <span>{props.heading} </span>
             for Your Website
           </h1>
           <p className="text-[#808080] text-[16px] ff_inter font-normal leading-[175%] tracking-[0.8px] xl:mb-[60px] lg:mb-10 md:mb-7 mb-4 lg:max-w-[448px]">
