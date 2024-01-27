@@ -5,6 +5,11 @@
 .ff_inter {
   font-family: "Inter", sans-serif;
 }
+@media (max-width: 1023.5px) {
+  .overflow_hidden {
+    overflow: hidden;
+  }
+}
 /* ==================modify-scrollbar============================= */
 ::-webkit-scrollbar {
   width: 10px;
@@ -44,7 +49,17 @@
   animation: bounce 1s linear infinite;
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-  40% {transform: translateY(-10px);} 
-  60% {transform: translateY(-5px);} 
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

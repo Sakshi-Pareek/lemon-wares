@@ -40,12 +40,12 @@ function App() {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 1000);
+    }, 4000);
   }, []);
   return (
     <>
       {screenLoading ? (
-        <Preloader/>
+        <Preloader />
       ) : (
         <>
           <div className='overflow-hidden'>

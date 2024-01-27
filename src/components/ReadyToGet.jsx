@@ -7,13 +7,22 @@ const ReadyToGet = () => {
   return (
     <>
       <div className="container xl:max-w-[1121px] mx-auto lg:px-3 px-6 lg:pt-[133px] lg:pb-[105px] sm:py-20 py-12">
-        <h2 className="text-black text-center ff_poppins font-semibold lg:text-[50px] sm:text-[40px] text-[30px] leading-[120%] lg:max-w-[650px] sm:mb-10 mb-5 mx-auto" data-aos="fade-up">
+        <h2
+          className="text-black text-center ff_poppins font-semibold lg:text-[50px] sm:text-[40px] text-[30px] leading-[120%] lg:max-w-[650px] sm:mb-10 mb-5 mx-auto"
+          data-aos="fade-up"
+        >
           Ready to get started with Lemon Wares?
         </h2>
-        <p className="text-center text-black ff_poppins font-normal sm:text-[25px] text-[15px] leading-[100%] " data-aos="fade-up">
+        <p
+          className="text-center text-black ff_poppins font-normal sm:text-[25px] text-[15px] leading-[100%] "
+          data-aos="fade-up"
+        >
           Choose the package that suits you
         </p>
-        <div className="flex sm:gap-8 gap-5 items-center justify-center lg:ml-16 sm:pt-14 pt-[30px] sm:pb-[71px] pb-10" data-aos="fade-up">
+        <div
+          className="flex sm:gap-8 gap-4 items-center justify-center lg:ml-16 sm:pt-14 pt-[30px] sm:pb-[71px] pb-10"
+          data-aos="fade-up"
+        >
           <p className="text-black ff_poppins sm:text-[25px] text-[20px] leading-[100%] font-normal">
             Monthly
           </p>
@@ -22,30 +31,33 @@ const ReadyToGet = () => {
             className={`${
               show
                 ? "after:translate-x-0 bg-[#B00000]"
-                : "sm:after:translate-x-[140%] after:translate-x-[220%] bg-[#FFE87A]"
-            } sm:w-[93px] w-[83px] cursor-pointer sm:h-[50px] h-[40px] rounded-[73px] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[20px] sm:after:h-[30px] after:h-[20px] after:rounded-[30px] after:transition-all after:ease-in-out after:duration-500 after:top-2.5 after:bottom-2.5 after:left-[9px]`}
+                : "sm:after:translate-x-[140%] after:translate-x-[180%] bg-[#FFE87A]"
+            } sm:w-[93px] w-[60px] cursor-pointer sm:h-[50px] h-[30px] rounded-[73px] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[15px] sm:after:h-[30px] after:h-[15px] after:rounded-[30px] after:transition-all after:ease-in-out after:duration-500 sm:after:top-2.5 after:top-2 after:bottom-2.5 after:left-[9px]`}
           ></div>
           <div className="flex gap-4">
             <p className="text-black ff_poppins font-normal sm:text-[25px] text-[20px] leading-[100%] ">
               Yearly
             </p>
-            <button className="text-black sm:block hidden ff_poppins text-[10px] leading-[90%] font-medium py-[7px] px-[8px] rounded-[8px] bg-[#FFE87A]">
+            <button className="text-black block hid den ff_poppins text-[10px] leading-[90%] font-medium py-[7px] sm:px-[8px] px-1.5 rounded-[8px] bg-[#FFE87A]">
               20% discount
             </button>
           </div>
         </div>
-        <div className="flex flex-row max-w-[856px] w-full mx-auto flex-wrap sm:pb-[85px] pb-10" data-aos="fade-up">
-          <div onClick={() => setTabs(!tabs)} className="w-[50%]">
+        <div
+          className="flex flex-row max-w-[856px] w-full mx-auto flex-wrap sm:pb-[85px] pb-10"
+          data-aos="fade-up"
+        >
+          <div onClick={() => setTabs(true)} className="w-[50%]">
             <h3 className="text-black cursor-pointer pb-1.5 text-center leading-[133.333%] sm:text-[30px] text-[22px] ff_poppins font-semibold ">
               Basic
             </h3>
             <div
               className={`${
-                tabs ? "" : "bg-[#c4c4c4]"
-              } h-1 bg-[#B00000] transition-all ease-in-out duration-500`}
+                tabs ? "bg-[#B00000]" : "bg-[#c4c4c4]"
+              } h-1 transition-all ease-in-out duration-500`}
             ></div>
           </div>
-          <div onClick={() => setTabs(!tabs)} className="w-[50%]">
+          <div onClick={() => setTabs(false)} className="w-[50%]">
             <h3 className="text-black cursor-pointer pb-1.5 text-center leading-[133.333%] sm:text-[30px] text-[22px] ff_poppins font-semibold ">
               Premium
             </h3>
@@ -56,7 +68,10 @@ const ReadyToGet = () => {
             ></div>
           </div>
         </div>
-        <div className="flex flex-wrap items-center lg:justify-between justify-center gap-7" data-aos="fade-up">
+        <div
+          className="flex flex-wrap items-center lg:justify-between justify-center gap-7"
+          data-aos="fade-up"
+        >
           <div className="border-2 lg:max-w-[299px] md:w-[48%] w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] cursor-pointer max-md:text-center hover:shadow-lg transition-all ease-linear duration-500  rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 group hover:bg-[#B00000]">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px] group-hover:text-white transition-all ease-linear duration-500">
               Starter

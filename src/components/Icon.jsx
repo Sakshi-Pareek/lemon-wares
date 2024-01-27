@@ -1,7 +1,7 @@
 export const PinkComma = () => {
   return (
     <svg
-      className="absolute sm:top-0 top-[-14px] xl:left-5 lg:left-[-13px] sm:left-0 left-[-9px] lg:max-w-[143px] max-w-[70px]"
+      className="absolute xl:left-[50px] sm:top-0 top-[-14px] lg:left-[-6px] sm:left-0 left-[-9px] lg:max-w-[143px] max-w-[70px]"
       width="143"
       height="120"
       viewBox="0 0 143 120"
