@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#B00000] md:pt-[64px] md:pb-20 py-12">
-        <div className="container xl:max-w-[1296px] lg:px-3 px-6 mx-auto">
+        <div className="container xl:max-w-[1264px] lg:px-3 px-6 mx-auto">
           <div className="flex flex-wrap flex-row items-center mb-12 md:mb-[80px] lg:mb-[104px]">
             <div className="lg:w-[33%] w-full">
-              <a href=""><img
+              <a href="#"><img
                 src={Footerlogo}
                 alt="Footerlogo"
                 className="sm:max-w-[120px] max-w-[100px] w-full"
@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="lg:w-[67%] w-full pt-[40px] lg:pt-[0]">
               <div className="flex flex-row flex-wrap max-md:gap-8 justify-between">
                 <div className="md:w-[25%] w-[40] lg:mt-4 flex xl:justify-center lg:justify-end">
-                  <ul className="flex flex-col gap-4 md:gap-6">
+                  <ul className="flex flex-col sm:gap-4 gap-3 md:gap-6">
                     <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%]">
                       Service
                     </li>
@@ -62,7 +62,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="md:w-[30%] w-[45%] lg:mt-4 flex xl:justify-center lg:justify-end">
-                  <ul className="flex flex-col gap-4 md:gap-6">
+                  <ul className="flex flex-col sm:gap-4 gap-3 md:gap-6">
                     <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%]">
                       Hosting
                     </li>
@@ -101,8 +101,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="md:w-[20%] w-[40%] lg:mt-4 flex xl:justify-center lg:justify-end">
-                  <ul className="flex flex-col gap-4 md:gap-6">
-                    <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%] pt-[14px] md:pt-[0]">
+                  <ul className="flex flex-col sm:gap-4 gap-3 md:gap-6">
+                    <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%]">
                       Company
                     </li>
                     <li>
@@ -121,7 +121,7 @@ const Footer = () => {
                         Career
                       </a>
                     </li>
-                    <li id="contact">
+                    <li>
                       <a
                         href=""
                         className="ff_inter text-[#E6E6E6] text-[16px] font-normal leading-[200%] inline-block text-nowrap hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#ffffff] after:h-[2px] relative after:left-[0] after:bottom-[1px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear hover:text-white transition-all ease-linear duration-300"
@@ -132,8 +132,8 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="lg:w-[23%] md:w-[20%] w-[45%] lg:mt-4 flex xl:justify-center lg:justify-end">
-                  <ul className="flex flex-col gap-4 md:gap-6">
-                    <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%] pt-[14px] md:pt-[0]">
+                  <ul className="flex flex-col sm:gap-4 gap-3 md:gap-6">
+                    <li className="text-[#FFFFFF] ff_inter text-[16px] font-bold leading-[150%]">
                       Help
                     </li>
                     <li>
@@ -159,7 +159,7 @@ const Footer = () => {
           </div>
           <p className="ff_inter sm:text-[16px] text-[13px] leading-[200%] font-normal text-[#ffffff] flex items-center">
             Built by Jeremiah with
-            <span className="sm:mx-2 px-1">
+            <span className="px-1">
               <WhiteHeart />
             </span>
             in Lagos. Copyright 2021

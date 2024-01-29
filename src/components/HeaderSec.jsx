@@ -19,7 +19,7 @@ const HeaderSec = () => {
   return (
     <>
       <div className="container xl:max-w-[1240px] mx-auto lg:px-3 px-6">
-        <div className="flex justify-between items-center relative z-[3] pt-[41px] xl:pr-20">
+        <div className="flex justify-between items-center relative z-[3] md:pt-[41px] pt-6 xl:pr-20">
           <div className="flex items-center gap-[90px] xl:gap-[135px]">
             <div className="flex gap-[55px] xl:gap-[65px] items-center">
               <img
@@ -139,8 +139,8 @@ const HeaderSec = () => {
         </div>
       </div>
       <div
-        className="container xl:max-w-[1240px] lg:px-3 px-6 mx-auto lg:mt-20 sm:mt-14 mt-10"
-        data-aos="fade-up"
+        className="container xl:max-w-[1240px] lg:px-3 px-6 mx-auto lg:pt-20 sm:pt-14 pt-10"
+        data-aos="fade-up" id="Account"
       >
         <nav className="flex items-center relative after:absolute after:w-full after:h-[1px] after:bg-[#E5E5E5] after:left-1 after:bottom-[-4px] after:max-w-[242px]">
           <button

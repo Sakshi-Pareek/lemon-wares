@@ -6,7 +6,7 @@ const ReadyToGet = () => {
   const [tabs, setTabs] = useState(true);
   return (
     <>
-      <div className="container xl:max-w-[1121px] mx-auto lg:px-3 px-6 lg:pt-[133px] lg:pb-[105px] sm:py-20 py-12">
+      <div className="container xl:max-w-[1121px] mx-auto lg:px-3 px-6 lg:pt-[133px] lg:pb-[105px] sm:py-20 py-12" id="service">
         <h2
           className="text-black text-center ff_poppins font-semibold lg:text-[50px] sm:text-[40px] text-[30px] leading-[120%] lg:max-w-[650px] sm:mb-10 mb-5 mx-auto"
           data-aos="fade-up"
@@ -20,7 +20,7 @@ const ReadyToGet = () => {
           Choose the package that suits you
         </p>
         <div
-          className="flex sm:gap-8 gap-4 items-center justify-center lg:ml-16 sm:pt-14 pt-[30px] sm:pb-[71px] pb-10"
+          className="flex sm:gap-8 gap-3 items-center justify-center lg:ml-16 sm:pt-14 pt-[30px] sm:pb-[71px] pb-10"
           data-aos="fade-up"
         >
           <p className="text-black ff_poppins sm:text-[25px] text-[20px] leading-[100%] font-normal">
@@ -34,11 +34,11 @@ const ReadyToGet = () => {
                 : "sm:after:translate-x-[140%] after:translate-x-[180%] bg-[#FFE87A]"
             } sm:w-[93px] w-[60px] cursor-pointer sm:h-[50px] h-[30px] rounded-[73px] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[15px] sm:after:h-[30px] after:h-[15px] after:rounded-[30px] after:transition-all after:ease-in-out after:duration-500 sm:after:top-2.5 after:top-2 after:bottom-2.5 after:left-[9px]`}
           ></div>
-          <div className="flex gap-4">
+          <div className="flex sm:gap-4 gap-2">
             <p className="text-black ff_poppins font-normal sm:text-[25px] text-[20px] leading-[100%] ">
               Yearly
             </p>
-            <button className="text-black block hid den ff_poppins text-[10px] leading-[90%] font-medium py-[7px] sm:px-[8px] px-1.5 rounded-[8px] bg-[#FFE87A]">
+            <button className="text-black ff_poppins text-[10px] leading-[90%] font-medium py-[7px] sm:px-[8px] px-1.5 rounded-[8px] bg-[#FFE87A]">
               20% discount
             </button>
           </div>
@@ -72,7 +72,7 @@ const ReadyToGet = () => {
           className="flex flex-wrap items-center lg:justify-between justify-center gap-7"
           data-aos="fade-up"
         >
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] cursor-pointer max-md:text-center transition-all ease-linear duration-300 hover:scale-[0.99] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 hover:bg-[#F7FAFE] hover:border-black">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)inset] cursor-pointer max-md:text-center transition-all ease-linear duration-300 hover:scale-[0.99] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 hover:bg-[#F7FAFE] hover:border-black">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Starter
             </p>
@@ -139,7 +139,7 @@ const ReadyToGet = () => {
               </ul>
             </div>
           </div>
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Standard
             </p>
@@ -206,7 +206,7 @@ const ReadyToGet = () => {
               </ul>
             </div>
           </div>
-          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
+          <div className="border-2 lg:max-w-[299px] md:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)inset] rounded-[15px] border-[#C4C4C4] bg-white pt-[34px] pl-[34px] pr-7 pb-11 max-md:text-center transition-all ease-linear duration-300 hover:bg-[#F7FAFE] hover:scale-[0.99] hover:border-black">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Suprem
             </p>

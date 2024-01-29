@@ -39,7 +39,7 @@ const WebHosting = () => {
   ];
   return (
     <>
-      <div className="container xl:max-w-[1308px] lg:px-3 px-6 mx-auto lg:mt-[104px] sm:mt-20 mt-12">
+      <div className="container xl:max-w-[1308px] lg:px-3 px-6 mx-auto lg:mt-[104px] sm:mt-20 mt-12" id="about">
         <div className="flex flex-row flex-wrap items-center justify-between lg:pb-[100px] sm:pb-[70px] pb-[50px]">
           <div className="lg:w-[46%] w-full" data-aos="fade-right">
             <h2 className="text-[#18191F] ff_inter xl:text-[48px] lg:text-[35px] md:text-[44px] sm:text-[38px] text-[27px] font-extrabold leading-[133.333%] sm:mb-4 mb-3">
@@ -100,16 +100,16 @@ const WebHosting = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row xl:justify-around flex-wrap md:justify-center sm:justify-between justify-center xl:gap-0 md:gap-8" id="service">
+        <div className="flex flex-row xl:justify-around flex-wrap md:justify-center sm:justify-between justify-center xl:gap-0 md:gap-8">
           {Trueweb.map((a, index) => (
             <div
-              className="xl:w-[20%] lg:w-[36%] sm:w-[40%] cursor-pointer w-[80%] mb-8 xl:mb-0 flex justify-center flex-col items-center"
+              className="group xl:w-[20%] lg:w-[36%] sm:w-[40%] cursor-pointer w-[80%] mb-8 xl:mb-0 flex justify-center flex-col items-center"
               key={index} data-aos="fade-up"
             >
               <img
                 src={a.Image}
                 alt="image"
-                className="w-full max-w-[100px] "
+                className="w-full max-w-[100px] group-hover:scale-[0.9] transition-all duration-300 ease-linear"
               />
               <h3 className="mt-3 text-black text-center ff_poppins text-[20px] font-bold text-nowrap">
                 {a.heading}

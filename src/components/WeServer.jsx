@@ -9,7 +9,7 @@ import CryptoLearnInvest from "../assets/images/webp/CryptoLearnInvest.webp";
 const WeServer = () => {
   return (
     <>
-      <div className="container xl:max-w-[1218px] lg:px-3 px-6 mx-auto lg:mt-[141px] md:pt-[80px] pt-12" id="about">
+      <div className="container xl:max-w-[1218px] lg:px-3 px-6 mx-auto lg:mt-[141px] md:pt-[80px] pt-12">
         <div className="flex flex-wrap flex-row justify-between lg:gap-0 sm:gap-8">
           <div className="lg:w-[37%] w-full lg:mt-4" data-aos="fade-right">
             <h4 className="text-[#18191F] xl:text-[48px] lg:text-[35px] md:text-[44px] sm:text-[38px] text-[30px] font-extrabold leading-[133.333%] ff_inter mb-2">

@@ -10,7 +10,7 @@ import ReadyToGet from './components/ReadyToGet';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Preloader from './components/Preloader';
-import BackToTop from './assets/images/webp/BackToTop.webp'
+import {BackToTop} from './components/Icon'
 
 function App() {
   // =======================aos============================
@@ -57,7 +57,7 @@ function App() {
             <GetInTouch />
             <Footer />
             <div>
-              <img src={BackToTop} alt="BackToTop" className={`${backToTop ? "fixed right-[1%] bottom-[1%] z-30 !cursor-pointer md:w-[50px] w-[30px]" : "d-none"} updown_animation`} onClick={() => top()} />
+              <button className={`${backToTop ? "fixed sm:right-[1%] right-2 bottom-[2%] z-30 !cursor-pointer updown_animation shadow-[0px_5px_10px_0px_rgba(255,255,255,2551)] w-[40px] h-[40px] border-white border-2 flex justify-center items-center bg-[#b00000] rounded-[50%]" : "d-none"}`} onClick={() => top()}><BackToTop /></button>
             </div>
           </div>
         </>
