@@ -8,9 +8,9 @@ const HeaderSec = () => {
   const commoncontent = "Blazing fast web hosting for individuals and";
   const [show, setShow] = useState(true);
   if (show === false) {
-    document.body.classList.add("overflow_hidden");
+    document.body.classList.add("max-xl:overflow-hideen");
   } else {
-    document.body.classList.remove("overflow_hidden");
+    document.body.classList.remove("max-xl:overflow-hideen");
   }
   const [activeTab, setActiveTab] = useState("Hosting");
   const handleTabClick = (tab) => {

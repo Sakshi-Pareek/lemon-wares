@@ -5,7 +5,7 @@ const Preloader = (i) => {
   return (
     <>
       <div className="w-full h-screen flex flex-col gap-4 justify-center items-center fixed bg-[#b00000]">
-        <img src={Loader} alt="Loader" className="max-w-[110px] w-full updow n_animation" />
+        <img src={Loader} alt="Loader" className="max-w-[110px] w-full" />
         <div className="loader w-[110px] h-1"></div>
       </div>
     </>

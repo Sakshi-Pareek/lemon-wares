@@ -8,8 +8,14 @@ import { WhatsApp } from "./Icon";
 const GetInTouch = () => {
   return (
     <>
-      <div className="lg:pt-[106px] lg:pb-[110px] sm:py-[80px] pb-12 pt-6" id="contact">
-        <div className="container xl:max-w-[1296px] lg:px-3 px-6 mx-auto relative" data-aos="fade-up">
+      <div
+        className="lg:pt-[106px] lg:pb-[110px] sm:py-[80px] pb-12 pt-6"
+        id="contact"
+      >
+        <div
+          className="container xl:max-w-[1296px] lg:px-3 px-6 mx-auto relative"
+          data-aos="fade-up"
+        >
           <img
             src={HalfLargeTriangle}
             alt="HalfLargeTriangle"
@@ -37,7 +43,7 @@ const GetInTouch = () => {
                   target="blank"
                   className="flex gap-[9px] items-center bg-[#B00000] rounded-[8px] px-[15px] py-[10px] sm:px-[18.1px] sm:pt-[12px] sm:pb-[11px] hover:shadow-[0_2px_15px_rgba(176,0,0,1)] transition-all ease-linear duration-500"
                 >
-                  <WhatsApp/>
+                  <WhatsApp />
                   <p className="m-0 ff_poppins text-[#FFFFFF] text-[14px] font-normal text-nowrap">
                     Get in touch with us
                   </p>
